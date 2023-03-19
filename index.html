@@ -7,30 +7,32 @@
     <link rel="icon" href="Assets/img/Hololive_triangles_logo-1-_2_.ico">
     <link rel="stylesheet" href="Assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
   </head>
     <title>Hololive Indonesia Website</title>
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg p-1">
-      <div class="container">
-        <img src="Assets/img/Hololive_INDONESIA_logo.webp" class="navbar-brand">
+    <nav class="navbar navbar-expand-lg p-1 sticky-top">
+      <div class="container-fluid">
+        <img src="Assets/img/Hololive_INDONESIA_logo.webp" class="navbar-brand d-lg-none">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Tentang</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Berita</a>
             </li>
+            <img src="Assets/img/Hololive_INDONESIA_logo.webp" class="navbar-brand d-lg-block d-none">
             <li class="nav-item">
               <a class="nav-link" href="#">Talent</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Musik</a>
+              <a class="nav-link" href="#">Musik</a>
             </li>
           </ul>
         </div>
@@ -39,10 +41,239 @@
     <!-- navbar -->
 
     <!-- hero -->
+    <section class="hero" id="home">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-12">
+            <div class="text">
+              <img src="Assets/img/logo_hololive2.png" class="logo">
+              <p class="intro-text">Play Game and anything with your favorite female Idol Vtuber</p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-9">
+            <img src="Assets/img/hololive_hero.webp" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- hero -->
 
     <!-- news -->
+    <section class="news" id="news">
+      <div class="container-content">
+        <div class="d-flex justify-content-between align-items-end">
+          <h1 class="title-content">Berita</h1>
+          <a href="#" class="view">Lihat semua</a>
+        </div>
+        <div class="row">
+          <div class="swiper hololive-news">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/news-1.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-date">2023.01.30</p>
+                      <p class="title-news">All Generation Kimono Costume Reveal</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/news-2.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-date">2022.12.02</p>
+                      <p class="title-news">Hololive Super Expo 2023 & hololive 4th fes</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/news-3.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-date">2022.10.21</p>
+                      <p class="title-news">Gen 1's New Costume Reveal</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/news-4.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-date">2022.09.12</p>
+                      <p class="title-news">3D Showcase Relay (Gen 1)</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/news-5.png" class="card-img-top">
+                    <div class="card-body">
+                      <p class="card-date">2022.03.24</p>
+                      <p class="title-news">Gen 3 Debut Teaser</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- news -->
+
+    <!-- talent -->
+    <section class="member" id="member">
+      <div class="container-content">
+        <div class="a d-flex justify-content-between align-items-end">
+          <h1 class="title-content">Talent</h1>
+          <a href="#" class="view">Lihat semua</a>
+        </div>
+        <div class="row">
+          <div class="swiper talent">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#AB98CF;">
+                    <h3 class="en">Moona Hoshinova</h3>
+                    <p class="jp">ムーナ・ホシノヴァ</p>
+                    <img src="Assets/img/moona.png" alt="Moona">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#A9FF74;">
+                    <h3 class="dark-en">Airani Iofifteen</h3>
+                    <p class="dark-jp">アイラニ・イオフィフティーン</p>
+                    <img src="Assets/img/Iofi.png" alt="Iofi">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#E38E99;">
+                    <h3 class="en">Ayunda Risu</h3>
+                    <p class="jp">アユンダ・リス</p>
+                    <img src="Assets/img/Ayunda_risu.png" alt="Risu">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#C21533;">
+                    <h3 class="en">Kureiji Ollie</h3>
+                    <p class="jp">クレイジー・オリー</p>
+                    <img src="Assets/img/Ollie.png" alt="Ollie">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#F2C95C;">
+                    <h3 class="en">Anya Melfissa</h3>
+                    <p class="jp">アーニャ・メルフィッサ</p>
+                    <img src="Assets/img/anya.png" alt="Anya">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#0F52BA;">
+                    <h3 class="en">Pavolia Reine</h3>
+                    <p class="jp">クレイジー・オリー</p>
+                    <img src="Assets/img/reine.png" alt="Reine">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#6F6F6F;">
+                    <h3 class="en">Vestia Zeta</h3>
+                    <p class="jp">ベスティア・ゼータ</p>
+                    <img src="Assets/img/Zeta.png" alt="Zeta">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#FF3D3D;">
+                    <h3 class="en">Kaela Kovelskia</h3>
+                    <p class="jp">カエラ・コヴァルスキア</p>
+                    <img src="Assets/img/kaela.png" alt="Kaela">
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <div class="card-talent" style="background-color:#004D73;">
+                    <h3 class="en">Kobo Kanaeru</h3>
+                    <p class="jp">こぼ・かなえる</p>
+                    <img src="Assets/img/Kobo_Kanaeru.png" alt="Kobo">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- talent -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      var swiper = new Swiper(".hololive-news", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+          el: "swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+        },
+      });
+      var swiper = new Swiper(".talent", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        pagination: {
+          el: "swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
 </body>
 </html>
