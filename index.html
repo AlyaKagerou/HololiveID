@@ -181,7 +181,7 @@
                   <div class="card-talent" style="background-color:#F2C95C;">
                     <h3 class="en">Anya Melfissa</h3>
                     <p class="jp">アーニャ・メルフィッサ</p>
-                    <img src="Assets/img/anya.png" alt="Anya">
+                    <img src="Assets/img/Anya_mel.png" alt="Anya">
                   </div>
                 </a>
               </div>
@@ -190,7 +190,7 @@
                   <div class="card-talent" style="background-color:#0F52BA;">
                     <h3 class="en">Pavolia Reine</h3>
                     <p class="jp">クレイジー・オリー</p>
-                    <img src="Assets/img/reine.png" alt="Reine">
+                    <img src="Assets/img/Reine.png" alt="Reine">
                   </div>
                 </a>
               </div>
@@ -199,7 +199,7 @@
                   <div class="card-talent" style="background-color:#6F6F6F;">
                     <h3 class="en">Vestia Zeta</h3>
                     <p class="jp">ベスティア・ゼータ</p>
-                    <img src="Assets/img/Zeta.png" alt="Zeta">
+                    <img src="Assets/img/Zeta.webp" alt="Zeta">
                   </div>
                 </a>
               </div>
@@ -208,7 +208,7 @@
                   <div class="card-talent" style="background-color:#FF3D3D;">
                     <h3 class="en">Kaela Kovelskia</h3>
                     <p class="jp">カエラ・コヴァルスキア</p>
-                    <img src="Assets/img/kaela.png" alt="Kaela">
+                    <img src="Assets/img/Kaela_Kovalskia.png" alt="Kaela">
                   </div>
                 </a>
               </div>
@@ -227,53 +227,66 @@
       </div>
     </section>
     <!-- talent -->
+
+    <!-- Music Video -->
+    <section class="music" id="music">
+      <div class="container-content">
+        <div class="a d-flex justify-content-between align-items-end">
+          <h1 class="title-content">Musik Video</h1>
+          <a href="#" class="view">Lihat semua</a>
+        </div>
+        <div class="row">
+          <div class="swiper mv">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/mv-1.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <p class="title-news">Bebas Cover</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/mv-2.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <p class="title-news">Medley Lagu Daerah</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/mv-3.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <p class="title-news">Id : entity</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card h-100">
+                  <a href="#" class="card-news">
+                    <img src="Assets/img/mv-4.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <p class="title-news">Id : entity (Gen 3)</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Music Video -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script>
-      var swiper = new Swiper(".hololive-news", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        pagination: {
-          el: "swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 10,
-          },
-        },
-      });
-      var swiper = new Swiper(".talent", {
-        slidesPerView: 1,
-        spaceBetween: 20,
-        pagination: {
-          el: "swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 10,
-          },
-        },
-      });
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
