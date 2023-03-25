@@ -71,13 +71,21 @@ body{
     color: #094067;
     font-size: 15px;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .card{
     width: 19rem;
     margin: 0 0 0 15px;
 }
-.card-date{
+.card-body{
+    background-color: #9ff2ff;
+    height: 100%;
+}
+.title-news{
+    color: #191919;
+}
+.card-date,
+.card-category{
     background-color: #094067;
     border-radius: 50px;
     padding: 4px 10px;
