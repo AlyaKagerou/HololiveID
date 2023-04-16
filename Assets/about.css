@@ -68,6 +68,22 @@ body{
     font-size: 20px;
     text-align: justify;
 }
+.gen{
+    margin: 2rem;
+}
+.desc-gen{
+    text-align: justify;
+}
+.nav-pills .nav-link.active{
+    background-color: #094067;
+    color: #fff;
+}
+.nav-link{
+    color: #c2c2c2;
+}
+.nav-link:hover{
+    color: #094067;
+}
 .footer {
     background-color:#26C5FD ;
     color: #fff;
@@ -159,5 +175,32 @@ body{
     }
     .desc-holo{
         font-size: 12px;
+    }
+    .footer2 {
+        flex-direction: column;
+    }
+      .company {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+      .company img {
+        width: 100px;
+    }
+      .footer1 {
+        flex-direction: column;
+        margin: auto;
+    }
+      .footer-link {
+        font-size: 12px;
+    }
+      .twyt {
+        margin-bottom: -15px;
+    }
+    .gen{
+        margin: 0px;
+        flex-direction: column-reverse;
+    }
+    .title-gen{
+        margin-top: 15px;
     }
 }
