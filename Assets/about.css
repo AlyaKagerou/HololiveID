@@ -57,7 +57,7 @@ body{
     position: relative;
 }
 .container-content{
-    margin: 2rem 2rem;
+    margin: 2rem 4rem;
 }
 .about-title{
     color: #5EDCEE;
@@ -73,6 +73,11 @@ body{
 }
 .desc-gen{
     text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text{
+    margin-top: 7rem;
 }
 .nav-pills .nav-link.active{
     background-color: #094067;
@@ -83,6 +88,10 @@ body{
 }
 .nav-link:hover{
     color: #094067;
+}
+.title-gen{
+    color: #094067;
+    font-weight: 600;
 }
 .footer {
     background-color:#26C5FD ;
@@ -170,11 +179,17 @@ body{
     .navbar-toggler.collapsed .toggler-icon{
         background: #26C5FD;
     }
+    .nav-item{
+        margin: 10px;
+    }
+    .container-content{
+        margin: 0 2rem;
+    }
     .about-title{
         font-size: 32px;
     }
     .desc-holo{
-        font-size: 12px;
+        font-size: 15px;
     }
     .footer2 {
         flex-direction: column;
@@ -197,10 +212,16 @@ body{
         margin-bottom: -15px;
     }
     .gen{
-        margin: 0px;
+        margin: 10px;
         flex-direction: column-reverse;
     }
+    .text{
+        margin-top: 2rem;
+    }
     .title-gen{
-        margin-top: 15px;
+        text-align: center;
+    }
+    .desc-gen{
+        font-size: 15px;
     }
 }
