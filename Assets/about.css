@@ -50,6 +50,24 @@ body{
 .nav-item a:hover{
     color: #26C5FD;
 }
+#home{
+    background: #5EDCEE;
+    margin: 2rem;
+    border-radius: 10px;
+    position: relative;
+}
+.container-content{
+    margin: 2rem 2rem;
+}
+.about-title{
+    color: #5EDCEE;
+    font-weight: 700;
+    font-size: 64px;
+}
+.desc-holo{
+    font-size: 20px;
+    text-align: justify;
+}
 @media screen and (max-width:768px){
     .toggler-icon{
         display: block;
@@ -92,5 +110,11 @@ body{
     }
     .navbar-toggler.collapsed .toggler-icon{
         background: #26C5FD;
+    }
+    .about-title{
+        font-size: 32px;
+    }
+    .desc-holo{
+        font-size: 12px;
     }
 }
