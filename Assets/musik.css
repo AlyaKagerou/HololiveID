@@ -104,6 +104,17 @@ body{
     font-weight: 700;
     font-size: 64px;
 }
+.nav-pills .nav-link.active{
+    background-color: #094067;
+    color: #fff;
+}
+.nav-link{
+    color: #c2c2c2;
+    margin: 0 -60px;
+}
+.nav-link:hover{
+    color: #094067;
+}
 .footer {
     background-color:#26C5FD ;
     color: #fff;
