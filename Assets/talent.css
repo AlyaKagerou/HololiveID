@@ -103,20 +103,77 @@ body{
     color: #5EDCEE;
     font-weight: 700;
     font-size: 64px;
+    margin-top: 2rem;
 }
-.card-body{
-    background-color:#9ff2ff;
+.card-talent {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.25s ease;
 }
-.card-news{
-    text-decoration: none;
+.card-talent img{
+    height: 100%;
 }
-.card-date,
-.card-category{
-    background-color: #094067;
-    border-radius: 50px;
-    padding: 4px 10px;
-    color: #FFFFFE;
-    text-align: center;
+.en {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    letter-spacing: 1px;
+    margin-right: 225px;
+    margin-bottom: 90px;
+    z-index: 1;
+    top: 1;
+    opacity: 0;
+    transform: translate(100%);
+    transition: all 0.2s ease;
+}
+.dark-en {
+    position: absolute;
+    color: #191919;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+    letter-spacing: 1px;
+    margin-right: 177px;
+    margin-bottom: 90px;
+    z-index: 1;
+    top: 1;
+    opacity: 0;
+    transition: all 0.2s ease;
+  }
+.jp {
+    position: absolute;
+    opacity: 0;
+    color: #fff;
+    writing-mode: vertical-lr;
+    font-weight: 700;
+    margin-left: 175px;
+    margin-top: 85px;
+    font-size: 17px;
+    transition: all 0.2s ease;
+}
+.dark-jp {
+    position: absolute;
+    color: #191919;
+    font-size: 14px;
+    opacity: 0;
+    writing-mode: vertical-lr;
+    font-weight: 700;
+    margin-left: 175px;
+    margin-top: 85px;
+    transition: all 0.2s ease;
+}
+.card-talent:hover .en,
+.card-talent:hover .jp,
+.card-talent:hover .dark-en,
+.card-talent:hover .dark-jp{
+  opacity: 1;
 }
 .footer {
     background-color:#26C5FD ;
@@ -125,7 +182,7 @@ body{
     margin-top: 1.5rem;
     font-weight: 500;
 }
-.footer1{
+.footer1 {
     justify-content: space-between;
     align-items: center;
     margin: 0 40px;
@@ -161,13 +218,24 @@ body{
 .twyt i:hover {
     transform: translateY(-10px);
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width:768px){
     .container-content{
         margin: 0 2rem;
     }
-    .about-title{
-        font-size: 40px;
-        margin-top: 3rem;
+    .card-talent{
+        width: 200px;
+    }
+    .en{
+        margin-right: 220px;
+    }
+    .jp{
+        margin-left: 175px;
+    }
+    .dark-en{
+        margin-right: 175px;
+    }
+    .dark-jp{
+        margin-left: 170px;
     }
     .footer2 {
         flex-direction: column;
@@ -188,5 +256,16 @@ body{
     }
       .twyt {
         margin-bottom: -15px;
+    }
+}
+@media (max-width:414px){
+    .card-talent{
+        width: 160px;
+    }
+    .en{
+        margin-right: 370px;
+    }
+    .jp{
+        margin-left: 310px;
     }
 }
