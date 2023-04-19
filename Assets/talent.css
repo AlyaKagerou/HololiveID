@@ -263,9 +263,15 @@ body{
         width: 160px;
     }
     .en{
-        margin-right: 370px;
+        margin-right: 180px;
     }
     .jp{
-        margin-left: 310px;
+        margin-left: 130px;
+    }
+    .dark-en{
+        margin-right: 135px;
+    }
+    .dark-jp{
+        margin-left: 130px;
     }
 }
