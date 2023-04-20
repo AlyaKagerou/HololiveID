@@ -5,3 +5,136 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
+::-webkit-scrollbar{
+    background: transparent;
+    width: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #5EDCEE;
+    width: 6px;
+    border-radius: 6px;
+}
+body{
+    background-image: url(img/background.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar-toggler{
+    width: 10px;
+    height: 3px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: red;
+    border-radius: 2px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.middle-bar{
+    margin-top:0px;
+}
+.navbar-toggler .top-bar{
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .toggler-icon{
+    background-color: #26C5FD;
+}
+.navbar{
+    background-color: #FFFFFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar-brand{
+    width: 140px;
+    height: 65px;
+}
+.nav-item{
+    margin: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-item a:hover{
+    color: #26C5FD;
+}
+.container-content{
+    margin: 0 2rem;
+}
+.img-fluid{
+    position: relative;
+    border-radius: 10px;
+}
+.fanart{
+    position: absolute;
+    margin-top: -1.5rem;
+    top: 160px;
+    left: 40px;
+    color: #094067;
+}
+.kobo{
+    width: 300px;
+    position: absolute;
+    margin-top: -16rem;
+    margin-left: 50px;
+}
+.desc-holo{
+    margin-top: 2rem;
+    line-height: 25px;
+    text-align: justify;
+}
+.name-jp{
+    font-weight: 700;
+}
+.desc{
+    margin-top: 1rem;
+}
+@media screen and (max-width:768px){
+    .kobo{
+        position: relative;
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width:414px) {
+    .kobo{
+        width: 250px;
+    }
+}
