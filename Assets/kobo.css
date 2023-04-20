@@ -103,6 +103,10 @@ body{
     position: relative;
     border-radius: 10px;
 }
+.breadcrumb-item a{
+    color: #0084b4;
+    text-decoration: none;
+}
 .fanart{
     position: absolute;
     margin-top: -1.5rem;
