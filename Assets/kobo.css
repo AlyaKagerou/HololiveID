@@ -152,6 +152,12 @@ body{
     background-color: #9ff2ff;
     border: none;
 }
+.jumbotron{
+    margin-top: 3rem;
+    background-color: #6aabda;
+    border: 3px solid #094067;
+    border-radius: 10px;
+}
 @media screen and (max-width:768px){
     .kobo{
         position: relative;
