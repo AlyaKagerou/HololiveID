@@ -148,6 +148,10 @@ body{
 .social i:hover{
     transform: translateY(-10px);
 }
+.card{
+    background-color: #9ff2ff;
+    border: none;
+}
 @media screen and (max-width:768px){
     .kobo{
         position: relative;
