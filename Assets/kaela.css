@@ -113,12 +113,12 @@ body{
     margin-top: -1.5rem;
     top: 160px;
     left: 40px;
-    color: #094067;
+    color: #fff;
 }
 .talent{
-    width: 300px;
+    width: 210px;
     position: absolute;
-    margin-top: -16rem;
+    margin-top: -12rem;
     margin-left: 150px;
 }
 .desc-holo{
@@ -154,15 +154,15 @@ body{
 }
 .jumbotron{
     margin-top: 3rem;
-    background-color: #6aabda;
-    border: 3px solid #094067;
+    background-color: #ff9492;
+    border: 3px solid #c00d0a;
     border-radius: 10px;
 }
 .title-profile{
     text-transform: uppercase;
     margin:2rem 0;
     letter-spacing: 2px;
-    color: #094067;
+    color: #c00d0a
 }
 dd{
     color: #191919;
@@ -213,7 +213,7 @@ dd{
 @media screen and (max-width:768px){
     .talent{
         position: relative;
-        margin: -10px 65px;
+        margin: 10px 100px;
     }
 }
 @media screen and (max-width:414px) {
