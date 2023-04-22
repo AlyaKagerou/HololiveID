@@ -152,6 +152,13 @@ body{
     background-color: #9ff2ff;
     border: none;
 }
+.music{
+    list-style: none;
+    margin-left: -30px;
+}
+.music i{
+    margin-right: 14px;
+}
 .jumbotron{
     margin-top: 3rem;
     background-color: #6aabda;
@@ -214,6 +221,26 @@ dd{
     .talent{
         position: relative;
         margin: -10px 65px;
+    }
+    .footer2 {
+        flex-direction: column;
+    }
+      .company {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+      .company img {
+        width: 100px;
+    }
+      .footer1 {
+        flex-direction: column;
+        margin: auto;
+    }
+      .footer-link {
+        font-size: 12px;
+    }
+      .twyt {
+        margin-bottom: -15px;
     }
 }
 @media screen and (max-width:414px) {
