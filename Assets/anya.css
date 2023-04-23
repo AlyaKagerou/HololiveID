@@ -161,15 +161,15 @@ body{
 }
 .jumbotron{
     margin-top: 3rem;
-    background-color: #c4c4c4;
-    border: 3px solid #393939;
+    background-color: #ffd34e;
+    border: 3px solid #ae8300;
     border-radius: 10px;
 }
 .title-profile{
     text-transform: uppercase;
     margin:2rem 0;
     letter-spacing: 2px;
-    color: #393939;
+    color: #ae8300;
 }
 dd{
     color: #191919;
