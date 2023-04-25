@@ -149,6 +149,7 @@ body{
     transform: translateY(-10px);
 }
 .card{
+    width: 20rem;
     background-color: #9ff2ff;
     border: none;
 }
@@ -222,6 +223,9 @@ dd{
         position: relative;
         margin: -10px 15px;
     }
+    .card{
+        width: 27.5rem;
+    }
     .footer2 {
         flex-direction: column;
     }
@@ -247,5 +251,8 @@ dd{
     .talent{
         width: 250px;
         margin: -10px 30px;
+    }
+    .card{
+        width: 21rem;
     }
 }

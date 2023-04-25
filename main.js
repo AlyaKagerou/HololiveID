@@ -19,7 +19,7 @@ var swiper = new Swiper(".hololive-news", {
         spaceBetween: 10,
       },
     },
-  });
+});
 var swiper = new Swiper(".talent", {
     slidesPerView: 1,
     spaceBetween: 20,
