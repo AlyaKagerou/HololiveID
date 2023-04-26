@@ -112,8 +112,8 @@ body{
     position: absolute;
     margin-top: -1.5rem;
     top: 160px;
-    left: 40px;
-    color: #094067;
+    right: 40px;
+    color: #da90ff;
 }
 .talent{
     width: 400px;
